@@ -10,15 +10,23 @@ public class Ejecutable {
     public static void main(String[] args) {
         // Se crea un objeto
         Hospital hospital = new Hospital();
+        Hospital h2 = new Hospital();
         
         // Se asigna valores particulares al objeto
-        hospital.nombre = "Isidro Ayora";
-        hospital.numeroCamas = 100;
-        hospital.presupuesto = 560340.43;
+        hospital.nombre = "Santa Inés";
+        hospital.numeroCamas = 200;
+        hospital.presupuesto = 675243.43;
+        
+        h2.nombre = "San José";
+        h2.numeroCamas = 175;
+        h2.presupuesto = 125872.35;
         
         // Se presenta valores en pantalla
         System.out.printf("%s - %d - %.2f\n", hospital.nombre,
                 hospital.numeroCamas, hospital.presupuesto);
+        
+        System.out.printf("%s - %d - %.2f\n", h2.nombre,
+                h2.numeroCamas, h2.presupuesto);
         
         // System.out.println(hospital.nombre + "-" + hospital.numeroCamas);
     }

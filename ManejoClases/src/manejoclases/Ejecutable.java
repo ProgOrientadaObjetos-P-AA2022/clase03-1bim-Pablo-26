@@ -7,10 +7,14 @@ package manejoclases;
 
 /**
  *
- * @author reroes
+ * @author
  */
 public class Ejecutable {
     public static void main(String[] args) {
         Hospital hospital = new Hospital();
+        Hospital h2 = new Hospital();
+        Hospital hostpitalLoja = new Hospital();
+        Hospital hostpital_Loja = new Hospital();
+        
     }
 }
